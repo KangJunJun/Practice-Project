@@ -7,9 +7,9 @@ import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
 
+const ENDPOINT = "https://chat-application-practice.herokuapp.com/";
 let socket;
 
-const ENDPOINT = "https://chat-application-practice.herokuapp.com/";
 const Chat = ({ location }) => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
